@@ -1,0 +1,76 @@
+/* ========== GLOBAL RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== BODY ========== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* ========== HEADER ========== */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* ========== MAIN ========== */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* ========== ASIDE ========== */
+aside {
+  width: 800px;
+  margin: 20px auto;
+  background-color: #d9edf7;
+  color: #333;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* ========== PARAGRAPH ADJUSTMENT ========== */
+p {
+  padding: 0;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
