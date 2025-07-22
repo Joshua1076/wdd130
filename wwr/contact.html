@@ -1,49 +1,66 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact Whitewater Rafting Company to learn more or ask questions." />
-  <meta name="author" content="Joshua Ilechie" />
-  <title>Contact Us | Whitewater Rafting</title>
-  <link rel="stylesheet" href="rafting.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Whitewater Rafting</title>
+  <link rel="stylesheet" href="stylist.css">
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Rafting Logo" />
-    <h1>Whitewater Rafting</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+    <h1>Contact Us</h1>
   </header>
 
   <main>
-    <h2>Contact Us</h2>
+    <section>
+      <h2>Company Information</h2>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: info@whitewaterrafting.com</p>
+      <p>Address: 123 River Rd, Rapids Town, USA</p>
+    </section>
 
-    <section class="contact-info">
-      <p><strong>Address:</strong> 123 River Lane, Rapids City, RC 45678</p>
-      <p><strong>Phone:</strong> +1 (800) 555-RAFT</p>
-      <p><strong>Email:</strong> contact@whitewaterrafting.com</p>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_CODE_HERE" 
-        width="100%" 
-        height="300" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+    <section>
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
     </section>
 
     <section class="employees">
+      <h2>Meet Our Team</h2>
       <figure>
-        <img src="images/emily.jpg" alt="Emily – Customer Support" width="200" />
-        <figcaption>Emily – Customer Support</figcaption>
+        <img src="images/employee2.jpg" alt="Mike - Safety Coordinator">
+        <figcaption>Mike – Safety Coordinator</figcaption>
       </figure>
       <figure>
-        <img src="images/james.jpg" alt="James – Reservation Manager" width="200" />
-        <figcaption>James – Reservation Manager</figcaption>
+        <img src="images/employee3.jpg" alt="Emma - Adventure Planner">
+        <figcaption>Emma – Adventure Planner</figcaption>
       </figure>
-      <figure>
+    </section>
+
+    <section>
+      <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019994875101!2d-122.42067908468153!3d37.7785192797586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e1d5157%3A0xe3bcbf9a21b08760!2sWhitewater%20Rafting%20Center!5e0!3m2!1sen!2sus!4v1618303339775!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Whitewater Rafting Co. | Created by Joshua Ilechie</p>
+    <a href="https://example.com/wireframe">View Wireframe</a>
+    <nav>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </nav>
+  </footer>
+</body>
+</html>
