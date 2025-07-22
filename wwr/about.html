@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Whitewater Rafting</title>
-  <link rel="stylesheet" href="stylist.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Whitewater Rafting for your next adventure!">
+    <meta name="author" content="ILECHIE JOSHUA">
+    <title>Contact Us | Whitewater Rafting</title>
+    <link rel="stylesheet" href="stylist.css">
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Rafting Logo" width="100">
-    <h1>Whitewater Rafting</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="#">Trips</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <img src="images/logo.png" alt="Rafting Logo" width="100">
+        <h1>Whitewater Rafting</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="intro">
-      <h2>Welcome to Whitewater Rafting</h2>
-      <p>Come experience the thrill of river rafting with us!</p>
-    </section>
+    <main>
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> 123 River Lane, Rapids City, RC 45678</p>
+        <p><strong>Phone:</strong> +1 (800) 555-RAFT</p>
+        <p><strong>Email:</strong> <a href="mailto:contact@whitewaterrafting.com">contact@whitewaterrafting.com</a></p>
 
-    <section class="history">
-      <h2>Our History</h2>
-      <p>We began in 2000 with a single raft and a dream of adventure. Now, we're a leading rafting company offering thrilling experiences across the globe.</p>
-    </section>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.3029243539053!2d-122.47825568468238!3d37.81992837975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085817cd5ec66df%3A0x3656b013982c76d2!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
 
-    <section class="adventures">
-      <h2>Adventure Awaits</h2>
-      <div class="adventure-list">
-        <figure>
-          <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
-          <figcaption>Los Dientes del Diablo</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure2.jpg" alt="Big Mallard">
-          <figcaption>Big Mallard</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure3.jpg" alt="Half Day Adventure">
-          <figcaption>Half Day Adventure</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure4.jpg" alt="Rapid Rush">
-          <figcaption>Rapid Rush</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adventure5.jpg" alt="Extreme Rapids">
-          <figcaption>Extreme Rapids</figcaption>
-        </figure>
-      </div>
-    </section>
-  </main>
+        <section class="employees">
+            <figure>
+                <img src="images/emily.jpg" alt="Emily – Customer Support">
+                <figcaption>Emily – Customer Support</figcaption>
+            </figure>
+            <figure>
+                <img src="images/james.jpg" alt="James – Reservation Manager">
+                <figcaption>James – Reservation Manager</figcaption>
+            </figure>
+        </section>
 
-  <footer>
-    <p>© 2025 Whitewater Rafting Co. | Created by Joshua Ilechie</p>
-    <div class="social">
-      <a href="#"><img src="images/facebook.png" alt="Facebook" width="24"></a>
-      <a href="#"><img src="images/twitter.png" alt="Twitter" width="24"></a>
-      <a href="#"><img src="images/instagram.png" alt="Instagram" width="24"></a>
-    </div>
-  </footer>
+        <section>
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting | ILECHIE JOSHUA</p>
+        <p><a href="images/wireframe.png" target="_blank">View Wireframe</a></p>
+    </footer>
 </body>
 </html>
