@@ -2,60 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Whitewater Rafting - Experience thrilling rafting adventures with us. Join our family-friendly or extreme trips!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience thrilling rafting adventures with Whitewater Rafting Co.">
-    <title>Whitewater Rafting Co. | Home</title>
+    <title>Whitewater Rafting | Home</title>
     <link rel="stylesheet" href="stylist.css">
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="Rafting Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section class="hero">
             <img src="images/hero.jpg" alt="Rafting Adventure Hero Image">
             <h1>Experience the Thrill of Whitewater Rafting!</h1>
         </section>
 
-        <!-- Newsletter Signup -->
         <section class="newsletter">
             <h2>Join Our Adventure Newsletter</h2>
             <form>
-                <label for="newsletter-name">Full Name:</label>
-                <input type="text" id="newsletter-name" name="newsletter-name" required>
-                
-                <label for="newsletter-email">Email:</label>
-                <input type="email" id="newsletter-email" name="newsletter-email" required>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
                 <button type="submit">Sign Up</button>
             </form>
         </section>
 
-        <!-- Call to Action -->
         <section class="cta">
             <h2>Your Adventure Awaits!</h2>
             <a href="trips.html" class="btn">Explore Our Trips</a>
         </section>
 
-        <!-- Grid Content Section -->
         <section class="grid-content">
-            <div>
-                <img src="images/adventure1.jpg" alt="Rafting Action">
-                <h3>Thrilling Adventures</h3>
-                <p>Join us for adrenaline-pumping whitewater experiences that you’ll never forget.</p>
+            <div class="grid-item">
+                <h2>Rafting Action</h2>
+                <p>Thrilling Adventures: Join us for adrenaline-pumping whitewater experiences that you’ll never forget.</p>
             </div>
-            <div>
-                <img src="images/family.jpg" alt="Family Rafting Fun">
-                <h3>Family Friendly</h3>
-                <p>We offer calm and scenic float trips perfect for families and beginners.</p>
+            <div class="grid-item">
+                <h2>Family Rafting Fun</h2>
+                <p>Family Friendly: We offer calm and scenic float trips perfect for families and beginners.</p>
             </div>
         </section>
     </main>
