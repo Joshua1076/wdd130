@@ -2,64 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Whitewater Rafting - Experience thrilling rafting adventures with us. Join our family-friendly or extreme trips!">
+    <meta name="description" content="Experience thrilling whitewater rafting adventures with Whitewater Rafting Co.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting | Home</title>
+    <title>Whitewater Rafting Co. | Home</title>
     <link rel="stylesheet" href="stylist.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting Logo">
+        <h1>Rafting Logo</h1>
         <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <img src="images/hero.jpg" alt="Rafting Adventure Hero Image">
-            <h1>Experience the Thrill of Whitewater Rafting!</h1>
-        </section>
+    <section class="hero">
+        <h2>Experience the Thrill of Whitewater Rafting!</h2>
+    </section>
 
-        <section class="newsletter">
-            <h2>Join Our Adventure Newsletter</h2>
-            <form>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
+    <section class="newsletter">
+        <h2>Join Our Adventure Newsletter</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+    <section class="cta">
+        <h2>Your Adventure Awaits!</h2>
+        <a href="trips.html" class="btn">Explore Our Trips</a>
+    </section>
 
-                <button type="submit">Sign Up</button>
-            </form>
-        </section>
-
-        <section class="cta">
-            <h2>Your Adventure Awaits!</h2>
-            <a href="trips.html" class="btn">Explore Our Trips</a>
-        </section>
-
-        <section class="grid-content">
-            <div class="grid-item">
-                <h2>Rafting Action</h2>
-                <p>Thrilling Adventures: Join us for adrenaline-pumping whitewater experiences that you’ll never forget.</p>
-            </div>
-            <div class="grid-item">
-                <h2>Family Rafting Fun</h2>
-                <p>Family Friendly: We offer calm and scenic float trips perfect for families and beginners.</p>
-            </div>
-        </section>
-    </main>
+    <section class="grid-content">
+        <div>
+            <h3>Rafting Action</h3>
+            <p><strong>Thrilling Adventures:</strong> Join us for adrenaline-pumping whitewater experiences that you’ll never forget.</p>
+        </div>
+        <div>
+            <h3>Family Rafting Fun</h3>
+            <p><strong>Family Friendly:</strong> We offer calm and scenic float trips perfect for families and beginners.</p>
+        </div>
+    </section>
 
     <footer>
         <p>© 2025 Whitewater Rafting Co. | Created by Joshua Ilechie Chigozirim</p>
         <a href="#">View Wireframe</a>
-        <div class="socials">
+        <div>
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
             <a href="#">Instagram</a>
