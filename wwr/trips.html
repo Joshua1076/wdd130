@@ -1,93 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore exciting rafting trips with Whitewater Rafting Co. Find the perfect adventure for you and your family.">
-    <title>Whitewater Rafting Co. | Trips</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore our rafting trips, difficulty levels, and prices.">
+  <title>Trips | Whitewater Rafting</title>
+  <link rel="stylesheet" href="rafting.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/logo.png" alt="Rafting Logo">
-        <nav class="navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <h1>Our Trips</h1>
-        </section>
+<header>
+  <img src="images/logo.png" alt="Whitewater Rafting Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="trips.html">Trips</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-        <section class="trip-list">
-            <article>
-                <h2>Rapid Rush Adventure</h2>
-                <p>Experience a heart-pounding ride through Class IV rapids. Perfect for adrenaline junkies!</p>
-            </article>
+<main>
 
-            <article>
-                <h2>Family Fun Float</h2>
-                <p>A calm and scenic float trip for families and beginners. Great for all ages!</p>
-            </article>
+  <!-- CTA -->
+  <section class="cta">
+    <h1>Choose Your Rafting Adventure</h1>
+    <p>Contact us today to reserve your spot.</p>
+    <a href="contact.html" class="cta-button">Contact Us</a>
+  </section>
 
-            <article>
-                <h2>Full-Day Adventure</h2>
-                <p>An all-day excursion with lunch included. Traverse multiple rapids and enjoy nature.</p>
-            </article>
-        </section>
+  <!-- TRIP CARDS -->
+  <section class="trip-list">
+    <h2>Our Trips</h2>
 
-        <section class="trip-summary">
-            <h2>Trip Summary</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Trip Name</th>
-                        <th>Difficulty</th>
-                        <th>Duration</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Rapid Rush Adventure</td>
-                        <td>High</td>
-                        <td>3 Hours</td>
-                        <td>$150</td>
-                    </tr>
-                    <tr>
-                        <td>Family Fun Float</td>
-                        <td>Low</td>
-                        <td>2 Hours</td>
-                        <td>$90</td>
-                    </tr>
-                    <tr>
-                        <td>Full-Day Adventure</td>
-                        <td>Medium</td>
-                        <td>8 Hours</td>
-                        <td>$250</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <div class="trip-card">
+      <img src="images/rafting.png" alt="Rapid Rush">
+      <h3>Rapid Rush</h3>
+      <p>High-intensity rapids for thrill seekers.</p>
+    </div>
 
-        <section class="cta">
-            <h2>Book Your Adventure Now!</h2>
-            <a href="contact.html" class="btn">Contact Us to Book</a>
-        </section>
-    </main>
+    <div class="trip-card">
+      <img src="images/rafting2.png" alt="Family Float">
+      <h3>Family Float</h3>
+      <p>Relaxed rafting perfect for families and beginners.</p>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 Whitewater Rafting Co. | Created by Joshua Ilechie Chigozirim</p>
-        <a href="#">View Wireframe</a>
-        <div class="social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
-    </footer>
+    <div class="trip-card">
+      <img src="images/employee2.jpg" alt="Sunset Canyon">
+      <h3>Sunset Canyon</h3>
+      <p>Scenic adventure with stunning sunset views.</p>
+    </div>
+  </section>
+
+  <!-- TABLE -->
+  <section class="trip-table">
+    <h2>Trip Details</h2>
+
+    <table>
+      <tr>
+        <th>Trip</th>
+        <th>Difficulty</th>
+        <th>Duration</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Rapid Rush</td>
+        <td>High</td>
+        <td>3 Hours</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td>Family Float</td>
+        <td>Low</td>
+        <td>2 Hours</td>
+        <td>$80</td>
+      </tr>
+      <tr>
+        <td>Sunset Canyon</td>
+        <td>Medium</td>
+        <td>4 Hours</td>
+        <td>$150</td>
+      </tr>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Whitewater Rafting Co.</p>
+  <div class="social">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/twitter.png" alt="Twitter">
+    <img src="images/instagram.png" alt="Instagram">
+  </div>
+</footer>
+
 </body>
 </html>
